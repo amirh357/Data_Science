@@ -1,0 +1,21 @@
+Dummies = [
+'InternetService',
+'Contract',
+'PaymentMethod'
+]
+
+
+Binaries = [
+'SeniorCitizen',
+'Dependents', 
+'PhoneService',
+'MultipleLines', #drop 'no phone' bc its caught in the above
+'OnlineSecurity', #drop no IS
+'OnlineBackup',
+'DeviceProtection',
+'TechSupport',
+'StreamingTV',
+'StreamingMovies',
+'PaperlessBilling',
+'Churn'
+]
